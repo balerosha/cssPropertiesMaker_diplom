@@ -1,0 +1,225 @@
+body {
+  background: linear-gradient(90deg, #aea4e3, #d3ffe8);
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sign_in_up {
+  background: linear-gradient(90deg, #d3ffe8, #aea4e3);
+  border: 3px solid black;
+  width: 500px;
+  min-height: 200px;
+  border-radius: 150px;
+  font-weight: 900;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 300px;
+}
+.sign_email {
+  margin-left: -40px;
+}
+.sign_inputs {
+  padding: 10px;
+  border-radius: 150px;
+}
+.sign_btns {
+  border: 1px solid black;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 19px;
+}
+.sign_btns:last-child {
+  margin-left: 10px;
+}
+.sign_btns:hover {
+  background-color: rgb(245, 146, 17);
+  color: white;
+}
+.sign_btns_block {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.app {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.app_navigation {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 5px;
+  width: calc(604px / 3);
+  text-align: center;
+  border: 2px solid transparent;
+  border-bottom: none;
+  box-sizing: border-box;
+}
+.active {
+  color: white;
+  background: linear-gradient(
+      rgba(135, 60, 255, 0.4),
+      rgba(135, 60, 255, 0) 80%
+    ),
+    linear-gradient(
+      -45deg,
+      rgba(120, 155, 255, 0.9) 25%,
+      rgba(255, 160, 65, 0.9) 75%
+    );
+
+  border: 2px solid black;
+  border-bottom: none;
+}
+.example {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.create_example_btn {
+  border: 2px solid black;
+  padding: 10px 20px;
+  background-color: white;
+  font-size: 1em;
+  border-radius: 49px;
+  margin-left: -75px;
+}
+.create_example_btn:hover {
+  border: 2px solid black;
+  padding: 10px 20px;
+  background-color: rgb(230, 123, 24);
+  font-size: 1em;
+  color: white;
+}
+.order_example {
+  display: flex;
+  justify-content: center;
+}
+
+.order_with_examples {
+  width: 604px;
+  height: 500px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  overflow-y: auto;
+  font-size: 25px;
+  padding: 10px;
+}
+.example_block {
+  display: flex;
+  margin-top: 10px;
+  margin-right: -60px;
+}
+.example_view {
+  width: 300px;
+  height: 250px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.example_rules {
+  width: 300px;
+  height: 250px;
+  margin-left: 4px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.example_of_order {
+  text-align: center;
+}
+.example_of_order:hover {
+  background-color: black;
+  cursor: pointer;
+  color: white;
+}
+.refresh_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: rgb(248, 6, 6);
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+.refresh_btn:hover {
+  background-color: rgb(24, 213, 219);
+  color: black;
+}
+.loading_block {
+  position: absolute;
+  top: 50%;
+  left: 67%;
+}
+.rules_block {
+  padding: 5px;
+}
+.rules_input {
+  width: 60px;
+  margin-left: 4px;
+}
+.addRule_block {
+  position: absolute;
+  min-width: 400px;
+  min-height: 100px;
+  border: 2px solid black;
+  top: -200px;
+  left: -200px;
+  background: orange;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.addRule_inputs {
+  padding: 5px;
+  font-size: 14px;
+}
+.add_btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 14px;
+}
+.copy_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: white;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.copy_btn:hover {
+  background-color: rgb(24, 213, 219);
+  color: black;
+}
+.refresh_copy_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
